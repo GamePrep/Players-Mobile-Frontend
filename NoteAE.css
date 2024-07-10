@@ -1,0 +1,77 @@
+.fullNoteAE {
+    position: fixed;
+    left: 0vw;
+    top: 0vw;
+    background-color: white;
+    width: 100vw;
+      height: 100vh;
+      z-index: 1000000;
+  }
+
+  .noteAECap {
+    width: 85%;
+    position: relative;
+    left: 7.5vw;
+    height: fit-content;
+    top: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .back-containerProf {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 14vw;
+    top: 9vw;
+    left: 7.5vw;
+
+  }
+  
+  .backTxtProf {
+    font-weight: 600;
+    font-size: 4vw;
+    position: relative;
+  }
+
+  .trash {
+    position: absolute;
+    top: 8.4vw;
+    right: 10vw;
+  }
+
+  .newNoteTitle {
+    background-color: white;
+  width: 80vw;
+  height: 13vw;
+  border: none;
+  border-radius: 2.5vw;
+  position: relative;
+  padding-left: 4vw;
+  font-family: inherit;
+  font-size: 5vw;
+  box-shadow: .05em 0.1em .4em 0.1vw #7f7f7f;
+
+
+  }
+
+  .newNoteContent {
+  width: 80vw;
+  height: 150vw;
+  border: none;
+  position: relative;
+  font-family: inherit;
+  font-size: 3.5vw;
+  top: 5vw;
+
+
+  }
+
+  textarea:focus, input:focus {
+    outline: none;
+}
+
+
+  

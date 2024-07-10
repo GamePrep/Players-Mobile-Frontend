@@ -1,0 +1,97 @@
+.fullNote {
+    position: fixed;
+    left: 0vw;
+    top: 0vw;
+    background-color: white;
+    width: 100vw;
+      height: 100vh;
+      z-index: 1000000;
+  }
+
+  .noteCap {
+    width: 85vw;
+    position: relative;
+    left: 7.5vw;
+    height: 10vw;
+    top: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .back-containerProf {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 14vw;
+    top: 9vw;
+    left: 7.5vw;
+
+  }
+  
+  .backTxtProf {
+    font-weight: 600;
+    font-size: 4vw;
+    position: relative;
+  }
+
+  .addNote {
+    position: relative;
+    top: 3vw;
+  }
+
+  .headFlexNote {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: fit-content;
+  }
+
+  .headTextNote {
+        font-size: 11vw;
+        font-weight: 600;
+        position: relative;
+        bottom: 0vw;
+  }
+
+  .today {
+    position: absolute;
+    left: 1vw;
+    top: 20vw;
+    font-size: 3.7vw;
+    font-weight:600;
+  }
+
+  .nothing {
+    position: absolute;
+    top:30vh;
+    font-size: 5vw;
+    font-weight: 600;
+    color:rgb(121, 121, 121)
+  }
+
+  .allNotes {
+    position: absolute;
+    top:30vw;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .iNote {
+    width: 80vw;
+    height: 13vw;
+    box-shadow: .05em 0.1em .2em 0.1vw #7f7f7f;
+    border-radius: 4vw;
+    margin-bottom: 4vw;
+    display: flex;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: 600;
+    padding-left: 5vw;
+  }
+  
