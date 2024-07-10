@@ -1,0 +1,7 @@
+.BGlogo{
+    opacity: 4%;
+    position: fixed;
+    top: 0vw;
+    z-index: 0;
+    transition: .4s ease-out;
+}
