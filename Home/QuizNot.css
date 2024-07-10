@@ -1,0 +1,64 @@
+.QuizNot {
+    display:flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    position: relative;
+    padding-top: 1vw;
+    margin-bottom:3vw;
+}
+
+.dot {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    width: 4vw;
+    height: 4vw;
+    background-color: red;
+    border-radius: 4vw;
+    box-shadow: .05em 0.1em .4em 0.1vw #5f5f5f;
+    position: relative;
+}
+
+.QuizNotBox {
+    width: 67vw;
+    height: 25vw;
+    position: relative;
+    right: 0vw;
+    border-radius: 5vw;
+    background-color: white;
+    box-shadow: .05em 0.1em .4em 0.1vw #5f5f5f;
+}
+
+
+.quizName{
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 700;
+    left: 4vw;
+
+    top: 4vw;
+
+}
+.quizSub{
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 300;
+    left: 4vw;
+
+    top: 9.5vw;
+
+}
+.timeLeft{
+    position: absolute;
+    font-size: 2.5vw;
+    font-weight: 500;
+    left: 4vw;
+    top: 17vw;
+    color: red;
+}
+
+.quizIcon {
+    position: absolute;
+    right: 3vw;
+    top: 12.5vw;
+}

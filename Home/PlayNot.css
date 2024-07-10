@@ -1,0 +1,37 @@
+.PlayNot {
+    margin-top: 5vw;
+    display:flex;
+    width: 85vw;
+    align-items: center;
+    position: relative;
+    border-radius: 3vw;
+    background-color: white;
+    box-shadow: .05em 0.1em .4em 0.1vw #5f5f5f;
+    height: 10vw;
+    left: 2vw;
+}
+
+.coachNotPic {
+        width: 5.5vw;
+        height: 5.5vw;
+        box-shadow: -0.05em 0.1em 0.3em 0vw #000000;
+        border-radius: 5.5vw;
+        overflow: hidden;
+        position: relative;
+        left: 4vw;
+}
+
+.playNotItem1 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-left: 9vw;
+}
+
+.playNotItem2 {
+    position: absolute;
+    font-size: 2.3vw;
+    font-weight: 500;
+    margin-left: 7vw;
+    right: 5vw;
+    color: #0072e2;
+}
