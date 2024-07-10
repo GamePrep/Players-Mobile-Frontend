@@ -1,0 +1,49 @@
+.playHeadFlex {
+
+    display: flex;
+    position: fixed;
+    height: 12vw;
+    width: 29vw;
+    justify-content: space-between;
+    right: 5vw;
+    top:8vw;
+
+
+  }
+
+  .playViewCap {
+    width: 90vw;
+    height: fit-content;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 5vw;
+      border: 0%;
+      position: fixed;
+      z-index: 1101;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .playHeadFlexItem {
+    background-color: white;
+    position: relative;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 4vw;
+    box-shadow: -0.09em 0.01em 0.5em 0.3vw #484848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.PlayTitleFlex{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+

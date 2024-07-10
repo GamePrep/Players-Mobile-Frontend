@@ -1,0 +1,230 @@
+.PlaybookFull {
+    position: fixed;
+    left: 0vw;
+    top: 0vw;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000;
+  }
+
+  .back-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 14vw;
+    left: 5vw;
+    top: 9vw;
+  }
+  
+  .backTxt {
+    font-weight: 600;
+    font-size: 4vw;
+    position: relative;
+  }
+
+.pb-Cap {
+    width: 90vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 5vw;
+    border: 0%;
+    position: fixed;
+    z-index: 1101;
+    left: 0;
+    top: 19vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.tri {
+    position: relative;
+    top: .1vw;
+  }
+
+.pbHead {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pbHeadFlexFlex {
+        display: flex;
+        width: 70vw;
+        height: fit-content;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.pbHeadFlexItem {
+    background-color: white;
+    position: relative;
+    height: 9vw;
+    width: 9vw;
+    border-radius: 4vw;
+    box-shadow: -.02em 0.11em 0.15em 0.05vw #8f8f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pbHeahGroup {
+    font-size: 8vw;
+    font-weight: 700;
+  }
+
+  .pbTopCap {
+    width: 100%;
+    height: 60vw;
+    position: relative;
+    top: 3vw;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.folderLevel {
+  height: 53vw;
+      width: 39vw;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+    overflow: auto;
+    transition: 0.5s ease-in-out;
+  }
+
+.folderCap {
+  width: 81vw;
+  left: 3.5vw;
+    height: 60vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.folder {
+  width: 30vw;
+    height: 8vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 1.5vw;
+    box-shadow: 0em .2em 0.35em 0.05vw #b7b7b7;
+    border: .4vw solid #DEDEDE;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 2vw;
+    left: 1vw;
+}
+
+.viewAll{
+  width: 100%;
+  height: fit-content;
+  color: #0072E2;
+  font-weight: 700;
+  font-size: 3.5vw;
+  margin-top: 5vw;
+  text-align: center;
+}
+
+
+
+.pbBottomCap {
+  width: 100%;
+    height: 95vw;
+    position: relative;
+    top: 6vw;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.pbLine {
+  position: relative;
+  margin-top: 5vw;
+  height: .2vw;
+  width: 100%;
+  opacity: 50%;
+  border-radius: 1vw;
+  background-color: #8f8f8f;
+}
+
+.playRow {
+  width: 100%;
+    height: 28vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5vw;
+}
+
+.playPicB {
+  width: 22vw;
+    height: 20vw;
+    position: relative;
+    background-color: white;
+    border-radius: 6vw;
+    box-shadow: 0em .2em 0.35em 0.05vw #b7b7b7;
+    border: .4vw solid #DEDEDE;
+    overflow: hidden;
+}
+.play{
+  width: 24vw;
+    height: 28vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.playTitleB {
+  font-size: 3.5vw;
+  font-weight: 500;
+}
+
+.playPicIn {
+  width: 100%;
+}
+
+.LN {
+    display: flex;
+    width: 27vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.folderName {
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.Lines {
+  position: relative;
+  top: .1vw;
+}
+
+
+.dotFlex {
+  width:20vw;
+  height: 5vw;
+  background-color: #0072E2;
+  position: relative;
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+}

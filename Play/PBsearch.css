@@ -1,0 +1,88 @@
+
+.searchFull {
+  position: fixed;
+    left: 0vw;
+    top: 0vw;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000;
+}
+
+.search-Cap {
+  width: 85vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    padding-left: 7.5%;
+    position: fixed;
+    z-index: 1101;
+    top: 22vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.search-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 0.35vw solid rgb(149, 149, 149);
+  padding-bottom: 1.5vw;
+}
+
+.pbSearchbar {
+  width: 78vw;
+  font-size: 5vw;
+  border: 0;
+  background-color: transparent;
+  font-weight: 500;
+  z-index: 901;
+}
+
+.ptype-flex {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 2vw;
+  z-index: 901;
+
+}
+
+.ptype-item {
+  height: 10vw;
+  font-size: 5.5vw;
+  font-weight: 500;
+  margin-top: 4vw;
+  position: relative;
+  padding-bottom: 1vw;
+  z-index: 901;
+}
+.ptype-itemFlex {
+  height: 10vw;
+  width: 100%;
+  border-bottom: 0.3vw solid rgb(207, 207, 207);
+  font-size: 5.5vw;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 2vw;
+  z-index: 901;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3vw;
+
+}
+
+.arrowSearch {
+  transform: rotate(180deg);
+
+}

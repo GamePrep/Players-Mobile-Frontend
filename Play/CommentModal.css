@@ -1,0 +1,145 @@
+.commentsModal {
+    width: 90vw;
+    height: 120vw;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0em 0.1em 0.2em 0.4vw #a0a0a0;
+    left: 5vw;
+    border-radius: 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: -50vw;
+  }
+  
+  .commentTopFlex {
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    top: 6vw;
+  }
+  
+  .arrowComments {
+    transform: rotate(-90deg);
+  }
+  
+  .commentsText {
+    display: flex;
+    width: 85%;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    top: 10vw;
+  }
+  
+  
+  .coachCommentBox {
+    width:73vw;
+    height: fit-content;
+    border-radius: 5vw;
+    position: relative;
+    left: 4vw;
+    box-shadow: 0em 0.1em 0.2em 0.4vw #a0a0a0;
+    font-size: 2.5vw;
+    top: 3vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 4vw;
+    
+  }
+  
+  .coachCommentPicCap{
+  width: 10vw;
+    height: 10vw;
+    position: absolute;
+    box-shadow: -0.09em 0.01em 0.5em 0.3vw #484848;
+    border-radius: 10vw;
+    overflow: hidden;
+    left: -4vw;
+    top: 2.5vw;
+  }
+  
+  .coachCommentText {
+    width: 81%;
+    position: relative;
+    left: 10vw;
+  }
+  
+  .commentAddFlex {
+    width: 90%;
+    height: 10vw;
+    position: absolute;
+    bottom: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .addComment {
+    width: 57vw;
+    height: 7vw;
+    border: none;
+    background-color: white;
+    border-radius: 5vw;
+    padding-left: 7vw;
+    color: #bcbcbc;
+    font-weight: 100;
+    box-shadow: 0em 0.05em 0.3em 0.03vw rgb(62, 62, 62);
+  }
+  
+  .addComment2 {
+    width: 57vw;
+    height: 7vw;
+    border: none;
+    background-color: white;
+    border-radius: 5vw;
+    padding-left: 7vw;
+    color: #2d2d2d;
+    font-weight: 100;
+    box-shadow: 0em 0.05em 0.3em 0.03vw rgb(62, 62, 62);
+  }
+  
+  
+  .add {
+    width: 13vw;
+    height: 7vw;
+    border-radius: 5vw;
+    box-shadow: 0em 0.05em 0.3em 0.03vw rgb(62, 62, 62);
+    font-size: 2.8vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .capBackdrop {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    flex-direction:column ;
+    background-color: rgba(0, 0, 0, 0.5);;
+    z-index: 10000000000;
+  }
+
+  .playerCommentText {
+    width: 87%;
+    position: relative;
+    left: 5.3vw;
+  }
+  .pCommentsArea{
+    overflow:auto;
+    height: 70vw;
+    width: 105%;
+    margin-bottom: 20vw;
+  }

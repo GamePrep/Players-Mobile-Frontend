@@ -1,0 +1,99 @@
+
+.rfsFull {
+    position: fixed;
+      left: 0vw;
+      top: 0vw;
+      background-color: white;
+      width: 100vw;
+      height: 100vh;
+      z-index: 1000000;
+  }
+  
+  .RFS-Cap {
+    width: 85vw;
+      height: 100vh;
+      margin: 0%;
+      padding: 0%;
+      border: 0%;
+      padding-left: 7.5%;
+      position: fixed;
+      z-index: 1101;
+      top: 22vw;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .RFShead {
+    width: 100%;
+    height: fit-content;
+    font-size: 8vw;
+    font-style: italic;
+    font-weight: 500;
+    padding-bottom: 4vw;
+    border-bottom: 0.35vw solid rgb(211, 211, 211);
+  }
+  
+  .viewAllRFS{
+    width: 100%;
+    height: fit-content;
+    color: #0072E2;
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin-top: 5vw;
+    text-align: center;
+  }
+
+  .RFSBottomCap {
+    width: 100%;
+      height: 140vw;
+      position: relative;
+      top: 6vw;
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+  }
+  .playRowRFS {
+    width: 100%;
+      height: 28vw;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 5vw;
+  }
+  
+  .playPicRFS {
+    width: 22vw;
+      height: 20vw;
+      position: relative;
+      background-color: white;
+      border-radius: 6vw;
+      box-shadow: 0em .2em 0.35em 0.05vw #b7b7b7;
+      border: .4vw solid #DEDEDE;
+      overflow: hidden;
+  }
+  .playRFS{
+    width: 24vw;
+      height: 28vw;
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+     
+  }
+  
+  .playTitleB {
+    font-size: 3.5vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  
+  .playPicInRFS {
+    width: 100%;
+  }
