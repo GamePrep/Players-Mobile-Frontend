@@ -1,0 +1,22 @@
+.foot {
+    height: 40vw;
+    width: 100vw;
+    position: absolute;
+    bottom: -17vw;
+    left: 0vw;
+    background-color: white;
+    border-radius: 10vw;
+    box-shadow: 0em 0em 0.5em 0.8vw #cfcfcf;
+    z-index: 0;
+  }
+  
+  .iconFlex {
+    display: flex;
+    flex-direction: row;
+    left: 20vw;
+    bottom: 6.5vw;
+    justify-content: space-between;
+    position: fixed;
+    width: 60vw;
+    z-index: 10;
+  }
