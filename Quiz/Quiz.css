@@ -1,0 +1,26 @@
+.Quiz {
+    width: 85%;
+    left: 7.5vw;
+    height: fit-content;
+    z-index: 10000000000000000000000;
+    position: relative;
+    top: 27vw;
+}
+
+.currentQuiz {
+    font-size: 7vw;
+    letter-spacing: .15vw;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 7vw;
+}
+
+.pastQuiz {
+    font-size: 6.5vw;
+    letter-spacing: .15vw;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 7vw;
+    padding-top: 4vw;
+}
+

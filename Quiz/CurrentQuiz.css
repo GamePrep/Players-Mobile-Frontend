@@ -1,0 +1,49 @@
+.CurrentQuiz {
+    width: 100%;
+    height: 30vw;
+    position: relative;
+    border-radius: 5vw;
+    background-color: white;
+    box-shadow: .05em 0.1em .6em 0.1vw #5f5f5f;
+    margin-bottom: 5vw;
+}
+
+
+
+.quizNameCurrent{
+    position: absolute;
+    font-size: 4.5vw;
+    font-weight: 700;
+    left: 4vw;
+
+    top: 3.5vw;
+
+}
+.quizSubCurrent{
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 300;
+    left: 4vw;
+
+    top: 9.5vw;
+
+}
+.timeLeftCurrent{
+    position: absolute;
+    font-size: 2.5vw;
+    font-weight: 500;
+    left: 4vw;
+    bottom: 4vw;
+    color: red;
+}
+
+.GoQuiz {
+    width: 24vw;
+    background-color: #0072e2;
+    height: 12vw;
+    border: none;
+    position: absolute;
+    right: 4vw;
+    bottom: 4vw;
+    border-radius: 4vw;
+}

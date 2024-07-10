@@ -1,0 +1,31 @@
+.PastQuiz {
+    margin-bottom: 5vw;
+    display:flex;
+    width: 85vw;
+    align-items: center;
+    position: relative;
+    border-radius: 3vw;
+    background-color: white;
+    box-shadow: .05em 0.1em .6em 0.1vw #5f5f5f;
+    height: 12vw;
+}
+
+.check {
+    padding-left: 5vw;
+}
+
+.PastQuizName {
+    font-size: 3.5vw;
+    font-weight: 500;
+    margin-left: 5vw;
+
+}
+
+.PastQuizScore {
+    position: absolute;
+    font-size: 3.2vw;
+    font-weight: 700;
+    margin-left: 7vw;
+    right: 5vw;
+
+}

@@ -1,0 +1,105 @@
+.fullAttempt {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: white;
+  z-index: 10000000;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.attempt-Cap {
+  width: 90vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 5vw;
+  border: 0%;
+  position: fixed;
+  z-index: 1101;
+  left: 0;
+  top: 5vw;
+  background-color: white;
+}
+
+
+.attemptHead {
+  font-size: 6.3vw;
+  margin-top: 0vw;
+  font-weight: 800;
+  width: 60vw;
+}
+
+.attemptSub {
+  font-size: 3.5vw;
+  margin-top: 2vw;
+  font-weight: 300;
+  color: #707070;
+}
+
+.circleCapA {
+    position: absolute;
+    top: 0vw;
+    right: 3vw;
+    width: 19vw;
+    height: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+  .blueCircleA {
+    position: absolute;
+    transform: rotate(90deg) scaleX(-1);
+    
+    
+  }
+  .quizPTSA {
+      position: relative;
+      font-weight: 600;
+      font-size: 4vw;
+  }
+
+
+.sOn {
+  width: 25vw;
+  height: 12vw;
+  border-radius: 5vw;
+  background-color: #0072E2;
+  box-shadow: -0.05em 0.1em 0.3em .1vw #595959;
+  position: fixed;
+  bottom: 5vw;
+  right: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  color: white;
+  font-weight: 700;
+}
+
+
+
+.playPicCapVar {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  flex-direction:column ;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);;
+  z-index: 10000000000;
+
+}
+
+
+.playPicVar {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
